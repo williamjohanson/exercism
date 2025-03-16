@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/darts.dir/darts_test.cpp.o CMakeFiles/darts.dir/darts.cpp.o CMakeFiles/darts.dir/test/tests-main.cpp.o  -o darts 

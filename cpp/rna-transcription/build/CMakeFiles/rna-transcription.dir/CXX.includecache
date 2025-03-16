@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/william/exercism/cpp/rna-transcription/rna_transcription.cpp
+rna_transcription.h
+/home/william/exercism/cpp/rna-transcription/rna_transcription.h
+iostream
+-
+cstring
+-
+algorithm
+-
+
+/home/william/exercism/cpp/rna-transcription/rna_transcription.h
+cstring
+-
+string
+-
+

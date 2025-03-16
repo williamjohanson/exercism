@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/william/exercism/cpp/darts/darts.cpp
+darts.h
+/home/william/exercism/cpp/darts/darts.h
+cmath
+-
+
+/home/william/exercism/cpp/darts/darts.h
+

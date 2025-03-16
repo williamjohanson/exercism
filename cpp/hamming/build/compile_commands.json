@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/william/exercism/cpp/hamming/build",
+  "command": "/usr/bin/c++    -g   -Wall -Wextra -Wpedantic -Werror -std=c++17 -o CMakeFiles/hamming.dir/hamming_test.cpp.o -c /home/william/exercism/cpp/hamming/hamming_test.cpp",
+  "file": "/home/william/exercism/cpp/hamming/hamming_test.cpp"
+},
+{
+  "directory": "/home/william/exercism/cpp/hamming/build",
+  "command": "/usr/bin/c++    -g   -Wall -Wextra -Wpedantic -Werror -std=c++17 -o CMakeFiles/hamming.dir/hamming.cpp.o -c /home/william/exercism/cpp/hamming/hamming.cpp",
+  "file": "/home/william/exercism/cpp/hamming/hamming.cpp"
+},
+{
+  "directory": "/home/william/exercism/cpp/hamming/build",
+  "command": "/usr/bin/c++    -g   -Wall -Wextra -Wpedantic -Werror -std=c++17 -o CMakeFiles/hamming.dir/test/tests-main.cpp.o -c /home/william/exercism/cpp/hamming/test/tests-main.cpp",
+  "file": "/home/william/exercism/cpp/hamming/test/tests-main.cpp"
+}
+]

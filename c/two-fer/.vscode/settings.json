@@ -1,0 +1,18 @@
+{
+  "cmake.configureOnOpen": false,
+  "files.associations": {
+    "__bit_reference": "cpp",
+    "*.tcc": "cpp"
+  },
+  "filewatcher.commands": [
+    {
+      "match": "\\.[cpp|h]",
+      "vscodeTask": [
+        "workbench.action.tasks.runTask",
+        "Make"
+      ],
+      "event": "onFileChange"
+    }
+  ],
+  "C_Cpp_Runner.msvcBatchPath": ""
+}

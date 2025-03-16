@@ -1,0 +1,4 @@
+/home/william/exercism/cpp/rna-transcription/build/CMakeFiles/rebuild_cache.dir
+/home/william/exercism/cpp/rna-transcription/build/CMakeFiles/edit_cache.dir
+/home/william/exercism/cpp/rna-transcription/build/CMakeFiles/test_rna-transcription.dir
+/home/william/exercism/cpp/rna-transcription/build/CMakeFiles/rna-transcription.dir

@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/william/exercism/cpp/collatz-conjecture/build",
+  "command": "/usr/bin/c++    -g   -Wall -Wextra -Wpedantic -Werror -std=c++17 -o CMakeFiles/collatz-conjecture.dir/collatz_conjecture_test.cpp.o -c /home/william/exercism/cpp/collatz-conjecture/collatz_conjecture_test.cpp",
+  "file": "/home/william/exercism/cpp/collatz-conjecture/collatz_conjecture_test.cpp"
+},
+{
+  "directory": "/home/william/exercism/cpp/collatz-conjecture/build",
+  "command": "/usr/bin/c++    -g   -Wall -Wextra -Wpedantic -Werror -std=c++17 -o CMakeFiles/collatz-conjecture.dir/collatz_conjecture.cpp.o -c /home/william/exercism/cpp/collatz-conjecture/collatz_conjecture.cpp",
+  "file": "/home/william/exercism/cpp/collatz-conjecture/collatz_conjecture.cpp"
+},
+{
+  "directory": "/home/william/exercism/cpp/collatz-conjecture/build",
+  "command": "/usr/bin/c++    -g   -Wall -Wextra -Wpedantic -Werror -std=c++17 -o CMakeFiles/collatz-conjecture.dir/test/tests-main.cpp.o -c /home/william/exercism/cpp/collatz-conjecture/test/tests-main.cpp",
+  "file": "/home/william/exercism/cpp/collatz-conjecture/test/tests-main.cpp"
+}
+]

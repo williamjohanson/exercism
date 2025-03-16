@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/william/exercism/cpp/grains/grains.cpp
+grains.h
+/home/william/exercism/cpp/grains/grains.h
+iostream
+-
+cmath
+-
+
+/home/william/exercism/cpp/grains/grains.h
+

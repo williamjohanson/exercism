@@ -1,0 +1,4 @@
+/home/william/exercism/cpp/hamming/build/CMakeFiles/edit_cache.dir
+/home/william/exercism/cpp/hamming/build/CMakeFiles/rebuild_cache.dir
+/home/william/exercism/cpp/hamming/build/CMakeFiles/test_hamming.dir
+/home/william/exercism/cpp/hamming/build/CMakeFiles/hamming.dir
