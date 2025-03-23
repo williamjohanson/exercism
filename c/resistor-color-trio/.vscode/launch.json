@@ -28,8 +28,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/william/exercism/c/binary",
-      "program": "/home/william/exercism/c/binary/build/Debug/outDebug",
+      "cwd": "/home/william/exercism/c/resistor-color-trio",
+      "program": "/home/william/exercism/c/resistor-color-trio/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
