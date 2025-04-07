@@ -28,8 +28,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/william/exercism/c/sum-of-multiples",
-      "program": "/home/william/exercism/c/sum-of-multiples/build/Debug/outDebug",
+      "cwd": "/home/william/exercism/c/allergies",
+      "program": "/home/william/exercism/c/allergies/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
