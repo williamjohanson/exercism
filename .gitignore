@@ -1,4 +1,4 @@
-# **/.vscode
-# **/.exercism
-# **/build
-# **:Zone.Identifier
+**/bin
+**/obj
+**/.vs
+**/.exercism
