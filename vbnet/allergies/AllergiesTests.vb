@@ -10,13 +10,13 @@ Public Class AllergiesTest
         Assert.Equal(allergies.AllergicTo("strawberries"), False)
     End Sub
 
-    <Fact(Skip:="Remove this Skip property to run this test")>
+    <Fact>
     Public Sub AllergicToEggs()
         Dim allergies = New Allergies(1)
         Assert.Equal(allergies.AllergicTo("eggs"), True)
     End Sub
 
-    <Fact(Skip:="Remove this Skip property to run this test")>
+    <Fact>
     Public Sub AllergicToEggsInAdditionToOtherStuff()
         Dim allergies = New Allergies(5)
         Assert.Equal(allergies.AllergicTo("eggs"), True)
@@ -24,13 +24,13 @@ Public Class AllergiesTest
         Assert.Equal(allergies.AllergicTo("strawberries"), False)
     End Sub
 
-    <Fact(Skip:="Remove this Skip property to run this test")>
+    <Fact>
     Public Sub NoAllergiesAtAll()
         Dim allergies = New Allergies(0)
         Assert.Equal(allergies.List().Count, 0)
     End Sub
 
-    <Fact(Skip:="Remove this Skip property to run this test")>
+    <Fact>
     Public Sub AllergicToJustEggs()
         Dim allergies = New Allergies(1)
         Assert.Equal(allergies.List(), New List(Of String) From {
@@ -38,7 +38,7 @@ Public Class AllergiesTest
         })
     End Sub
 
-    <Fact(Skip:="Remove this Skip property to run this test")>
+    <Fact>
     Public Sub AllergicToJustPeanuts()
         Dim allergies = New Allergies(2)
         Assert.Equal(allergies.List(), New List(Of String) From {
@@ -46,7 +46,7 @@ Public Class AllergiesTest
         })
     End Sub
 
-    <Fact(Skip:="Remove this Skip property to run this test")>
+    <Fact>
     Public Sub AllergicToEggsAndPeanuts()
         Dim allergies = New Allergies(3)
         Assert.Equal(allergies.List(), New List(Of String) From {
@@ -55,48 +55,48 @@ Public Class AllergiesTest
         })
     End Sub
 
-    <Fact(Skip:="Remove this Skip property to run this test")>
+    <Fact>
     Public Sub AllergicToLotsOfStuff()
         Dim allergies = New Allergies(248)
-        Assert.Equal(allergies.List(), New List(Of String)() From { _
-            "strawberries", _
-            "tomatoes", _
-            "chocolate", _
-            "pollen", _
-            "cats" _
+        Assert.Equal(allergies.List(), New List(Of String)() From {
+            "strawberries",
+            "tomatoes",
+            "chocolate",
+            "pollen",
+            "cats"
         })
     End Sub
 
-    <Fact(Skip:="Remove this Skip property to run this test")>
+    <Fact>
     Public Sub AllergicToEverything()
         Dim allergies = New Allergies(255)
-        Assert.Equal(allergies.List(), New List(Of String)() From { _
-            "eggs", _
-            "peanuts", _
-            "shellfish", _
-            "strawberries", _
-            "tomatoes", _
-            "chocolate", _
-            "pollen", _
-            "cats" _
+        Assert.Equal(allergies.List(), New List(Of String)() From {
+            "eggs",
+            "peanuts",
+            "shellfish",
+            "strawberries",
+            "tomatoes",
+            "chocolate",
+            "pollen",
+            "cats"
         })
     End Sub
 
-    <Fact(Skip:="Remove this Skip property to run this test")>
+    <Fact>
     Public Sub IgnoreNonAllergenScoreParts()
         Dim allergies = New Allergies(509)
-        Assert.Equal(allergies.List(), New List(Of String)() From { _
-            "eggs", _
-            "shellfish", _
-            "strawberries", _
-            "tomatoes", _
-            "chocolate", _
-            "pollen", _
-            "cats" _
+        Assert.Equal(allergies.List(), New List(Of String)() From {
+            "eggs",
+            "shellfish",
+            "strawberries",
+            "tomatoes",
+            "chocolate",
+            "pollen",
+            "cats"
         })
     End Sub
 
-    <Fact(Skip:="Remove this Skip property to run this test")>
+    <Fact>
     Public Sub NoAllergenScorePartsWithoutHighestValidScore()
         Dim allergies = New Allergies(257)
         Assert.Equal(allergies.List(), New List(Of String)() From { _
